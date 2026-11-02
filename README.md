@@ -13,4 +13,3 @@ All three methods gave the same slope, 0.417938. R-squared rose from 0.4734 with
 
 The eight-feature model had training RMSE 0.7197 and test RMSE 0.7456. The AveRooms coefficient was −0.0381, with a 95% confidence interval of [−0.0430, −0.0333]. The two-feature specification had test RMSE 0.8379, and median income alone had test RMSE 0.8421.
 
-In the take-home challenge, I found 965 districts at the value ceiling. After excluding them, test RMSE was 0.6531, compared with 0.7456 on the full sample. Because those scores cover different test populations, I also compared both models on the same uncapped test rows: their RMSEs were 0.6615 and 0.6531, respectively.
